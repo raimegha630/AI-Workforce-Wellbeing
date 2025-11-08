@@ -1,0 +1,16 @@
+# Runtime dependencies detected from app.py
+streamlit
+pandas
+numpy
+SQLAlchemy
+matplotlib
+opencv-python
+pillow
+deepface
+
+# DeepFace requires a deep learning backend. Add one of these if you plan to use DeepFace:
+# tensorflow  # e.g. `pip install tensorflow`  (or `tensorflow-cpu` on CPU-only machines)
+
+# Notes:
+# - `utils` is a local module, not installed via pip.
+# - Consider pinning versions after testing: `pip freeze > requirements.txt`.
