@@ -1,2 +1,62 @@
-# AI-Workforce-Wellbeing
-AI-powered analytics platform that monitors workforce productivity and wellbeing using sentiment analysis and data visualization. Built with Python and Streamlit for quick insights into employee mood, stress, and performance trends.
+# 🌿 AI WellTrack – Employee Wellbeing Tracker
+
+AI WellTrack is a smart system that tracks employee wellbeing and predicts burnout using daily inputs, facial emotion detection, and data analytics.
+
+Built with **Streamlit**, it provides insights for both employees and managers.
+
+---
+
+## 🚀 Features
+
+### 👤 Employee
+
+* Daily input: work hours, stress, productivity
+* 📷 Optional facial emotion detection
+* 📊 Personal wellbeing trends
+* 🔮 Burnout prediction
+
+### 💼 Manager
+
+* 👥 Overall employee analytics
+* 📈 Burnout trends
+* 🏢 Department insights
+* 📊 Stress vs productivity
+
+---
+
+## 🧠 How It Works
+
+* Burnout is calculated using stress, work hours, and emotion score
+* Uses **DeepFace** (or fallback **OpenCV**) for expression detection
+* Data stored in CSV + SQLite
+
+---
+
+## 🛠️ Tech Stack
+
+Python • Streamlit • Pandas • NumPy • Matplotlib • SQLite • OpenCV • DeepFace
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/your-username/ai-welltrack.git
+cd ai-welltrack
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🌱 Future Improvements
+
+* ML-based burnout prediction
+* Cloud deployment
+* Real-time alerts
+
+---
+
+## ✨
+
+> “Consistency in care leads to clarity in mind.”
