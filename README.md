@@ -38,17 +38,6 @@ Python • Streamlit • Pandas • NumPy • Matplotlib • SQLite • OpenCV �
 
 ---
 
-## ⚙️ Run Locally
-
-```bash
-git clone https://github.com/your-username/ai-welltrack.git
-cd ai-welltrack
-pip install -r requirements.txt
-streamlit run app.py
-```
-
----
-
 ## 🌱 Future Improvements
 
 * ML-based burnout prediction
@@ -56,7 +45,3 @@ streamlit run app.py
 * Real-time alerts
 
 ---
-
-## ✨
-
-> “Consistency in care leads to clarity in mind.”
